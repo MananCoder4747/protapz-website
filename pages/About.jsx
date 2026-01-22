@@ -8,11 +8,11 @@ import {
 export default function About() {
   const team = [
     {
-      name: "Michael Chen",
+      name: "Zaran Khunt",
       role: "Founder & Managing Director",
       specialty: "Tax Strategy & Business Advisory",
       image: "👨‍💼",
-      bio: "With 20+ years in public practice, Michael founded AuditPro to provide personalized, strategic accounting services to Australian businesses.",
+      bio: "With 20+ years in public practice, Zaran founded Protapz to provide personalized, strategic accounting services to Australian businesses.",
       credentials: "CPA, CA, MBA",
       linkedin: "#"
     },
@@ -87,7 +87,7 @@ export default function About() {
   ];
 
   const milestones = [
-    { year: "2010", event: "AuditPro Founded", description: "Started with a vision to revolutionize accounting services in Australia" },
+    { year: "2010", event: "Protapz Founded", description: "Started with a vision to revolutionize accounting services in Australia" },
     { year: "2013", event: "50 Clients Milestone", description: "Expanded team and services to meet growing demand" },
     { year: "2016", event: "Cloud-First Approach", description: "Pioneered cloud accounting adoption for Australian SMEs" },
     { year: "2019", event: "Award Recognition", description: "Named 'Best Accounting Firm' by Australian Business Awards" },
@@ -181,7 +181,7 @@ export default function About() {
                 </h2>
                 <div className="space-y-4 text-slate-300 text-lg leading-relaxed">
                   <p>
-                    AuditPro was founded in 2010 with a simple mission: to provide Australian businesses 
+                    Protapz was founded in 2010 with a simple mission: to provide Australian businesses   
                     with accounting services that go beyond compliance to deliver real strategic value.
                   </p>
                   <p>
@@ -195,7 +195,7 @@ export default function About() {
                   </p>
                   <p>
                     We've built our reputation on proactive service, strategic thinking, and delivering 
-                    measurable results. Because at AuditPro, your success is our success.
+                    measurable results. Because at Protapz, your success is our success.
                   </p>
                 </div>
               </div>
@@ -339,7 +339,7 @@ export default function About() {
                 <span className="gradient-text">Family of Clients</span>
               </h2>
               <p className="text-xl text-slate-300 mb-8">
-                Experience the AuditPro difference. Let's start with a free consultation.
+                Experience the Protapz difference. Let's start with a free consultation.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contact">

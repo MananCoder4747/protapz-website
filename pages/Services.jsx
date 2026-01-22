@@ -464,9 +464,9 @@ export default function Services() {
                   Book Free Consultation <ArrowRight className="w-5 h-5" />
                 </button>
               </Link>
-              <a href="tel:0212345678">
+              <a href="tel:+918866776724">
                 <button className="border-2 border-slate-700 px-10 py-5 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300">
-                  Call (02) 1234 5678
+                  Call +91 8866776724
                 </button>
               </a>
             </div>

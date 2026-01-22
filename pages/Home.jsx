@@ -139,7 +139,7 @@ export default function Home() {
   const testimonials = [
     {
       text: "Protapz has been managing our Australian tax returns and BAS for 3 years. Their knowledge of ATO requirements is exceptional, and they've saved us significant time and money.",
-      author: "Michael Chen",
+      author: "Zaran Khunt",
       role: "Director",
       company: "Sydney Tech Solutions Pty Ltd",
       rating: 5,
@@ -330,7 +330,7 @@ export default function Home() {
             <div>
               <div className="animate-slide-up inline-block mb-4">
                 <span className="bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 px-4 py-2 rounded-full text-sm font-medium">
-                  🇦🇺 Australian Accounting Experts | Based in India
+                  🇦🇺 Australian Accounting Experts | Based in Sydney
                 </span>
               </div>
               
@@ -716,9 +716,9 @@ export default function Home() {
                 Get Free Consultation <ArrowRight className="w-5 h-5" />
               </button>
             </Link>
-            <a href="tel:+919876543210">
+            <a href="tel:+918866776724">
               <button className="border-2 border-slate-700 px-10 py-5 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300">
-                Call +91 98765 43210
+                Call +91 88667 76724
               </button>
             </a>
           </div>

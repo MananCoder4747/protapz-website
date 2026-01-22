@@ -35,8 +35,8 @@ export default function Contact() {
       city: "Sydney",
       address: "Level 12, 123 Pitt Street",
       suburb: "Sydney NSW 2000",
-      phone: "(02) 1234 5678",
-      email: "sydney@auditpro.com.au",
+      phone: "(+91) 88667 76724",
+      email: "zaran@protapz.co.in",
       hours: "Mon-Fri: 8:30 AM - 5:30 PM",
       isPrimary: true
     },
@@ -44,8 +44,8 @@ export default function Contact() {
       city: "Melbourne",
       address: "Suite 45, 678 Collins Street",
       suburb: "Melbourne VIC 3000",
-      phone: "(03) 8765 4321",
-      email: "melbourne@auditpro.com.au",
+      phone: "(+91) 88667 76724",
+      email: "zaran@protapz.co.in",
       hours: "Mon-Fri: 8:30 AM - 5:30 PM",
       isPrimary: false
     },
@@ -53,8 +53,8 @@ export default function Contact() {
       city: "Brisbane",
       address: "Level 8, 234 Queen Street",
       suburb: "Brisbane QLD 4000",
-      phone: "(07) 9876 5432",
-      email: "brisbane@auditpro.com.au",
+      phone: "(+91) 88667 76724",
+      email: "zaran@protapz.co.in",
       hours: "Mon-Fri: 8:30 AM - 5:30 PM",
       isPrimary: false
     }
@@ -65,16 +65,16 @@ export default function Contact() {
       icon: <Phone className="w-8 h-8" />,
       title: "Phone",
       description: "Mon-Fri, 8:30 AM - 5:30 PM AEST",
-      action: "(02) 1234 5678",
-      link: "tel:0212345678",
+      action: "(+91) 88667 76724",
+      link: "tel:+918866776724",
       color: "from-blue-500 to-indigo-600"
     },
     {
       icon: <Mail className="w-8 h-8" />,
       title: "Email",
       description: "We'll respond within 4 hours",
-      action: "info@auditpro.com.au",
-      link: "mailto:info@auditpro.com.au",
+      action: "zaran@protapz.co.in",
+      link: "mailto:zaran@protapz.co.in",
       color: "from-emerald-500 to-teal-600"
     },
     {
@@ -440,12 +440,12 @@ export default function Contact() {
             <div className="text-center mt-8">
               <p className="text-slate-400">
                 Have more questions? {' '}
-                <a href="mailto:info@auditpro.com.au" className="text-emerald-400 hover:underline">
+                <a href="mailto:zaran@protapz.co.in" className="text-emerald-400 hover:underline">
                   Send us an email
                 </a>
                 {' '}or call{' '}
-                <a href="tel:0212345678" className="text-emerald-400 hover:underline">
-                  (02) 1234 5678
+                <a href="tel:+918866776724" className="text-emerald-400 hover:underline">
+                  (+91) 88667 76724
                 </a>
               </p>
             </div>

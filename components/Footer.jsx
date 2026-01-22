@@ -61,14 +61,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-emerald-400" />
-                <a href="tel:0212345678" className="hover:text-emerald-400 transition-colors">
-                  (02) 1234 5678
+                <a href="tel:+918866776724" className="hover:text-emerald-400 transition-colors">
+                  (+91) 88667 76724
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-emerald-400" />
-                <a href="mailto:info@auditpro.com.au" className="hover:text-emerald-400 transition-colors">
-                  info@auditpro.com.au
+                <a href="mailto:zaran@protapz.co.in" className="hover:text-emerald-400 transition-colors">
+                  zaran@protapz.co.in
                 </a>
               </li>
             </ul>

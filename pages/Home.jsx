@@ -125,15 +125,15 @@ export default function Home() {
   ];
 
   const industries = [
-    { name: "Technology & SaaS", icon: "💻", count: "150+ AU clients", image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&q=80" },
-    { name: "E-commerce & Online Retail", icon: "🛍️", count: "120+ AU clients", image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80" },
-    { name: "Construction & Trades", icon: "🏗️", count: "100+ AU clients", image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=80" },
-    { name: "Healthcare & Medical", icon: "🏥", count: "80+ AU clients", image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&q=80" },
-    { name: "Property & Real Estate", icon: "🏢", count: "90+ AU clients", image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" },
-    { name: "Professional Services", icon: "⚖️", count: "110+ AU clients", image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80" },
-    { name: "Hospitality & Tourism", icon: "🍽️", count: "65+ AU clients", image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80" },
-    { name: "Mining & Resources", icon: "⛏️", count: "45+ AU clients", image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&q=80" },
-    { name: "Agriculture & Farming", icon: "🌾", count: "55+ AU clients", image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&q=80" }
+    { name: "Technology & SaaS", icon: "💻", count: "150+ AU clients", image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&q=50&fm=webp" },
+    { name: "E-commerce & Online Retail", icon: "🛍️", count: "120+ AU clients", image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=50&fm=webp" },
+    { name: "Construction & Trades", icon: "🏗️", count: "100+ AU clients", image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=50&fm=webp" },
+    { name: "Healthcare & Medical", icon: "🏥", count: "80+ AU clients", image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&q=50&fm=webp" },
+    { name: "Property & Real Estate", icon: "🏢", count: "90+ AU clients", image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=50&fm=webp" },
+    { name: "Professional Services", icon: "⚖️", count: "110+ AU clients", image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=50&fm=webp" },
+    { name: "Hospitality & Tourism", icon: "🍽️", count: "65+ AU clients", image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=50&fm=webp" },
+    { name: "Mining & Resources", icon: "⛏️", count: "45+ AU clients", image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&q=50&fm=webp" },
+    { name: "Agriculture & Farming", icon: "🌾", count: "55+ AU clients", image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&q=50&fm=webp" }
   ];
 
   const testimonials = [
@@ -143,7 +143,7 @@ export default function Home() {
       role: "Director",
       company: "Sydney Tech Solutions Pty Ltd",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80"
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=50&fm=webp"
     },
     {
       text: "As an Australian business owner, finding reliable offshore accounting was crucial. Protapz team understands AU compliance inside-out. They handle our MYOB, payroll, and quarterly BAS flawlessly.",
@@ -151,7 +151,7 @@ export default function Home() {
       role: "Owner",
       company: "Melbourne Property Group",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80"
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=50&fm=webp"
     },
     {
       text: "Excellent service for our construction company. They manage our Xero bookkeeping, employee super, and company tax returns. Very responsive and great value compared to local firms.",
@@ -159,7 +159,7 @@ export default function Home() {
       role: "Managing Director",
       company: "Brisbane Builders Pty Ltd",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80"
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=50&fm=webp"
     },
     {
       text: "We've been using Protapz for our SMSF administration and individual tax returns. Their understanding of Australian superannuation regulations is impressive. Highly recommend!",
@@ -167,7 +167,7 @@ export default function Home() {
       role: "Principal",
       company: "Perth Financial Advisors",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80"
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=50&fm=webp"
     },
     {
       text: "Professional, knowledgeable, and cost-effective. Protapz handles our monthly bookkeeping, quarterly BAS, and annual company returns. Perfect solution for our Australian e-commerce business.",
@@ -175,7 +175,7 @@ export default function Home() {
       role: "Founder",
       company: "Adelaide Online Store",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&q=80"
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&q=50&fm=webp"
     },
     {
       text: "Moving our Australian accounting to Protapz was the best decision. They're available during our business hours, understand Xero perfectly, and keep us ATO compliant. Great team!",
@@ -183,7 +183,7 @@ export default function Home() {
       role: "CFO",
       company: "Gold Coast Hospitality Group",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&q=80"
+      image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&q=50&fm=webp"
     }
   ];
 
@@ -232,7 +232,7 @@ export default function Home() {
       industry: "Online Retail",
       challenge: "Complex GST and multi-state BAS compliance",
       result: "Streamlined quarterly BAS, saved $45K AUD annually",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=50&fm=webp",
       metrics: ["$45K saved", "100% ATO compliant", "Zero penalties"]
     },
     {
@@ -240,7 +240,7 @@ export default function Home() {
       industry: "Building & Trades",
       challenge: "Payroll, super, and Xero bookkeeping backlog",
       result: "Caught up 18 months, improved cash flow visibility",
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=80",
+      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=50&fm=webp",
       metrics: ["18mo backlog cleared", "STP compliant", "$30K cost savings"]
     },
     {
@@ -248,7 +248,7 @@ export default function Home() {
       industry: "SaaS",
       challenge: "R&D tax incentive application and compliance",
       result: "Successfully claimed $180K R&D refund",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=50&fm=webp",
       metrics: ["$180K R&D refund", "Tax optimized", "Investor-ready books"]
     }
   ];
@@ -272,7 +272,7 @@ export default function Home() {
       excerpt: "Everything you need to know about Business Activity Statements, GST reporting, and quarterly compliance with the ATO.",
       category: "Tax & Compliance",
       readTime: "8 min read",
-      image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=400&q=80",
+      image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=400&q=50&fm=webp",
       date: "Jan 15, 2026"
     },
     {
@@ -280,7 +280,7 @@ export default function Home() {
       excerpt: "Comprehensive comparison of Australia's two leading cloud accounting platforms with pricing, features, and recommendations.",
       category: "Accounting Software",
       readTime: "10 min read",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=80",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=50&fm=webp",
       date: "Jan 10, 2026"
     },
     {
@@ -288,7 +288,7 @@ export default function Home() {
       excerpt: "Stay compliant with Single Touch Payroll and super guarantee obligations. Avoid ATO penalties with our expert guide.",
       category: "Payroll & Super",
       readTime: "12 min read",
-      image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400&q=80",
+      image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400&q=50&fm=webp",
       date: "Jan 5, 2026"
     }
   ];
@@ -378,9 +378,10 @@ export default function Home() {
             <div className="relative animate-slide-up delay-200">
               <div className="relative rounded-2xl overflow-hidden border border-slate-800">
                 <img 
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=50&fm=webp" 
                   alt="Financial Dashboard"
                   className="w-full h-auto"
+                  loading='lazy'
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
               </div>

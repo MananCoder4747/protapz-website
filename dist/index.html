@@ -1,16 +1,157 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Protapz - Expert accounting, tax, and advisory services for Australian businesses. Trusted partner since 2010." />
-    <meta name="keywords" content="accounting, tax, bookkeeping, SMSF, business advisory, Australia, Sydney" />
-    <title>Protapz - Accounting, Tax, and Advisory Services for Australian Businesses | Trusted Partner Since 2010</title>
-    <script type="module" crossorigin src="/assets/index-XrZuXNt4.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Dzt3-nIj.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta Tags -->
+  <title>Protapz - Australian Accounting Services | Tax, BAS, Bookkeeping Experts</title>
+  <meta name="description" content="Protapz provides expert Australian accounting services from India. Specializing in tax returns, BAS/GST, bookkeeping, payroll, and SMSF. Cost-effective, ATO-compliant solutions for Australian businesses." />
+  <meta name="keywords" content="Australian accounting, BAS services, GST returns, Xero bookkeeping, MYOB, tax returns Australia, SMSF, payroll services, ATO compliance" />
+  <meta name="author" content="Protapz Accounting Services" />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Protapz - Australian Accounting Services" />
+  <meta property="og:description" content="Expert Australian accounting, tax, and BAS services. Cost-effective solutions from India with 100% ATO compliance." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://protapz.co.in" />
+  <meta property="og:locale" content="en_AU" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  
+  <!-- DNS Prefetch & Preconnect for Performance -->
+  <link rel="dns-prefetch" href="https://images.unsplash.com" />
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+  
+  <!-- Preload Critical Resources -->
+  <link rel="modulepreload" href="/main.jsx" />
+  
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#0f172a" />
+  
+  <!-- Robots -->
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://protapz.co.in" />
+  
+  <!-- Critical CSS (Above-the-fold) - Inlined for fastest paint -->
+  <style>
+    /* Reset & Base */
+    * { 
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+    }
+    
+    html {
+      -webkit-tap-highlight-color: transparent;
+      text-rendering: optimizeLegibility;
+    }
+    
+    body { 
+      margin: 0; 
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background-color: #0f172a;
+      color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    #root { 
+      min-height: 100vh; 
+    }
+    
+    /* Above-the-fold critical styles */
+    .gradient-text {
+      background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    /* Navigation critical styles */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      backdrop-filter: blur(10px);
+      background: rgba(15, 23, 42, 0.8);
+    }
+    
+    /* Loading indicator */
+    .loading { 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      min-height: 100vh;
+      background: #0f172a;
+    }
+    
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 3px solid #1e293b;
+      border-top-color: #10b981;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    /* Skip link for accessibility */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #10b981;
+      color: white;
+      padding: 8px 16px;
+      text-decoration: none;
+      z-index: 100;
+      font-weight: 600;
+      border-radius: 4px;
+    }
+    
+    .skip-link:focus {
+      top: 8px;
+      left: 8px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <!-- Loading indicator (removes after React loads) -->
+  <div id="root">
+    <div class="loading">
+      <div style="text-align: center;">
+        <div class="spinner"></div>
+        <p style="margin-top: 1rem; color: #64748b;">Loading Protapz...</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Main App Script -->
+  <script type="module" src="/main.jsx"></script>
+  
+  <!-- Service Worker Registration - Deferred for performance -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      // Defer SW registration to not block initial load
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        }, 3000);
+      });
+    }
+  </script>
+</body>
 </html>

@@ -1,14 +1,15 @@
 {
-  "name": "auditpro-accounting-website",
+  "name": "protapz-accounting-website",
   "version": "1.0.0",
   "description": "Modern, animated multi-page website for Australian accounting firm",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build && npm run copy-static",
+  "copy-static": "cp sitemap.xml dist/ && cp robots.txt dist/",
+  "preview": "vite preview"
+},
   "dependencies": {
     "lucide-react": "^0.294.0",
     "react": "^18.2.0",

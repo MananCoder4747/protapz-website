@@ -316,6 +316,7 @@ export default function Home() {
   };
 
   return (
+    <main id = "main-content" role="main">
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative pt-32 pb-24 px-6 overflow-hidden">
@@ -330,7 +331,7 @@ export default function Home() {
             <div>
               <div className="animate-slide-up inline-block mb-4">
                 <span className="bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 px-4 py-2 rounded-full text-sm font-medium">
-                  🇦🇺 Australian Accounting Experts | Based in Sydney
+                  🇦🇺 Australian Accounting Experts
                 </span>
               </div>
               
@@ -378,10 +379,10 @@ export default function Home() {
             <div className="relative animate-slide-up delay-200">
               <div className="relative rounded-2xl overflow-hidden border border-slate-800">
                 <img 
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=50&fm=webp" 
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=50&fm=webp" 
                   alt="Financial Dashboard"
+                  width="1200" height="600" loading="lazy"
                   className="w-full h-auto"
-                  loading='lazy'
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
               </div>
@@ -530,6 +531,9 @@ export default function Home() {
                   <img 
                     src={study.image} 
                     alt={study.company}
+                    width="600"
+                    height="400"
+  loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent"></div>
@@ -581,6 +585,9 @@ export default function Home() {
                   <img 
                     src={industry.image} 
                     alt={industry.name}
+                    width="300"
+                    height="200"
+                    loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent"></div>
@@ -624,6 +631,9 @@ export default function Home() {
                   <img 
                     src={testimonial.image} 
                     alt={testimonial.author}
+                    width="40"
+                    height="40"
+                    loading="lazy"
                     className="w-12 h-12 rounded-full object-cover"
                   />
                   <div>
@@ -664,6 +674,9 @@ export default function Home() {
                   <img 
                     src={post.image} 
                     alt={post.title}
+                    width="600"
+                    height="400"
+                    loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute top-4 left-4">
@@ -742,5 +755,6 @@ export default function Home() {
         </div>
       </section>
     </div>
+    </main>
   );
 }

@@ -51,7 +51,7 @@ In `components/Navigation.jsx`:
 <span className="gradient-text">Protapz</span>
 
 // With:
-<img src="/logo.png" alt="Protapz" className="h-10" />
+<img src="/logo.png" loading="lazy" alt="Protapz" className="h-10" />
 ```
 
 ### 3. Replace Images

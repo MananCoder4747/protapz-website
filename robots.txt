@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://protapz.co.in/sitemap.xml

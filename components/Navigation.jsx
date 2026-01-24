@@ -50,19 +50,24 @@ export default function Navigation() {
             </Link>
           ))}
           <Link to="/contact">
-            <button className="bg-gradient-to-r from-emerald-500 to-teal-600 px-6 py-2.5 rounded-lg font-medium hover:shadow-lg hover:shadow-emerald-500/50 transition-all duration-300 flex items-center gap-2">
-              Get Started <ArrowRight className="w-4 h-4" />
-            </button>
-          </Link>
+  <button className="...">
+    Get Free Consultation <ChevronRight className="w-5 h-5" />
+  </button>
+</Link>
         </div>
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-white"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-        >
-          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
+  className="md:hidden text-white"
+  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+  aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+  aria-expanded={mobileMenuOpen}
+>
+  {mobileMenuOpen ? 
+    <X className="w-6 h-6" aria-hidden="true" /> : 
+    <Menu className="w-6 h-6" aria-hidden="true" />
+  }
+</button>
       </div>
 
       {/* Mobile Menu */}
@@ -81,10 +86,10 @@ export default function Navigation() {
               </Link>
             ))}
             <Link to="/contact">
-              <button className="w-full bg-gradient-to-r from-emerald-500 to-teal-600 px-6 py-2.5 rounded-lg font-medium">
-                Get Started
-              </button>
-            </Link>
+  <button className="...">
+    Get Free Consultation <ChevronRight className="w-5 h-5" />
+  </button>
+</Link>
           </div>
         </div>
       )}

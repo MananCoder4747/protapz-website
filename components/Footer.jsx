@@ -15,15 +15,15 @@ export default function Footer() {
               tax, and advisory services to Australian businesses since 2010.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
+              <a href="https://linkedin.com/in/protapz" aria-label="Follow us on LinkedIn">
+  <LinkedIn className="w-5 h-5" aria-hidden="true" />
+</a>
+              <a href="https://twitter.com/protapz" aria-label="Follow us on Twitter">
+  <Twitter className="w-5 h-5" aria-hidden="true" />
+</a>
+              <a href="https://www.facebook.com/protapz" aria-label="Follow us on Facebook">
+  <Facebook className="w-5 h-5" aria-hidden="true" />
+</a>
             </div>
           </div>
 
@@ -47,7 +47,11 @@ export default function Footer() {
               <li><Link to="/about" className="hover:text-emerald-400 transition-colors">Our Team</Link></li>
               <li><Link to="#" className="hover:text-emerald-400 transition-colors">Careers</Link></li>
               <li><Link to="#" className="hover:text-emerald-400 transition-colors">Blog</Link></li>
-              <li><Link to="/contact" className="hover:text-emerald-400 transition-colors">Contact</Link></li>
+              <li><Link to="/contact">
+  <button className="hover:text-emerald-400 transition-colors">
+    Get Free Consultation <ChevronRight className="w-5 h-5" />
+  </button>
+</Link></li>
             </ul>
           </div>
 

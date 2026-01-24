@@ -24,3 +24,12 @@
 .skip-link:focus {
   top: 0;
 }
+
+/* Override low contrast colors */
+.text-gray-400 {
+  color: #d1d5db !important; /* Lighter gray */
+}
+
+.text-slate-400 {
+  color: #cbd5e1 !important; /* Lighter slate */
+}

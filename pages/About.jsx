@@ -344,10 +344,10 @@ export default function About() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contact">
-                  <button className="bg-gradient-to-r from-emerald-500 to-teal-600 px-10 py-5 rounded-lg font-semibold text-lg hover:shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 flex items-center justify-center gap-2">
-                    Get Started Today <ArrowRight className="w-5 h-5" />
-                  </button>
-                </Link>
+  <button className="...">
+    Get Free Consultation <ChevronRight className="w-5 h-5" />
+  </button>
+</Link>
                 <Link to="/services">
                   <button className="border-2 border-slate-700 px-10 py-5 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300">
                     Explore Services

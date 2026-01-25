@@ -57,12 +57,19 @@ export default function Navigation() {
         </div>
 
         {/* Mobile Menu Button */}
-        <button
-          className="md:hidden text-white"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-        >
-          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
+        <button 
+  className="md:hidden text-white p-3 hover:bg-slate-800 rounded-lg transition-colors"
+  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+  aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+  aria-expanded={mobileMenuOpen}
+  aria-controls="mobile-menu"
+  type="button"
+>
+  {mobileMenuOpen ? 
+    <X className="w-6 h-6" aria-hidden="true" /> : 
+    <Menu className="w-6 h-6" aria-hidden="true" />
+  }
+</button>
       </div>
 
       {/* Mobile Menu */}

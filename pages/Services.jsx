@@ -238,7 +238,7 @@ export default function Services() {
     <main id = "main-content" role="main">
     <div className="min-h-screen">
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Lato:wght@300;400;700&display=swap');
+
         
         .services-page h1, .services-page h2, .services-page h3 {
           font-family: 'Playfair Display', serif;

@@ -115,7 +115,7 @@ export default function About() {
     <main id = "main-content" role="main">
     <div className="min-h-screen">
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
         
         .about-page h1, .about-page h2, .about-page h3 {
           font-family: 'Crimson Text', serif;

@@ -354,11 +354,13 @@ export default function Home() {
   Get Free Consultation
   <ChevronRight className="w-5 h-5" />
 </Link>
-                <Link to="/services">
-                  <button className="border-2 border-emerald-500/30 px-12 py-6 min-h-[56px] min-w-[180px] rounded-lg font-semibold text-lg hover:bg-emerald-500/10 transition-all duration-300 flex items-center justify-center gap-2">
+                <Link 
+  to="/services"
+  className="inline-flex items-center justify-center gap-3 border-2 border-emerald-500/30 px-16 py-8 min-h-[64px] min-w-[220px] rounded-lg font-semibold text-lg hover:bg-emerald-500/10 transition-all duration-300 text-white no-underline"
+>
   Explore Services
-</button>
-                </Link>
+  <ArrowRight className="w-5 h-5" />
+</Link>
               </div>
 
               <div className="mt-12 flex flex-wrap items-center gap-6 animate-slide-up delay-400">
@@ -754,11 +756,13 @@ export default function Home() {
   Get Free Consultation
   <ChevronRight className="w-5 h-5" />
 </Link>
-            <a href="tel:+918866776724">
-              <button className="border-2 border-slate-700 px-12 py-6 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300 flex items-center justify-center gap-2 min-h-[56px] min-w-[220px]">
+            <a 
+  href="tel:+918866776724"
+  className="inline-flex items-center justify-center gap-3 border-2 border-slate-700 px-16 py-8 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300 min-h-[64px] min-w-[260px] text-white no-underline"
+>
+  <Phone className="w-5 h-5" />
   Call +91 88667 76724
-</button>
-            </a>
+</a>
           </div>
 
           {/* Quick Links */}

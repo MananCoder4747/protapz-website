@@ -58,11 +58,10 @@ export default function Navigation() {
 
         {/* Mobile Menu Button */}
         <button 
-  className="md:hidden text-white p-3 hover:bg-slate-800 rounded-lg transition-colors"
+  className="md:hidden text-white p-3 hover:bg-slate-800 rounded-lg transition-colors min-h-[48px] min-w-[48px] flex items-center justify-center"
   onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
   aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
   aria-expanded={mobileMenuOpen}
-  aria-controls="mobile-menu"
   type="button"
 >
   {mobileMenuOpen ? 

@@ -348,11 +348,13 @@ export default function About() {
                     Get Started Today <ArrowRight className="w-5 h-5" />
                   </button>
                 </Link>
-                <Link to="/services">
-                  <button className="border-2 border-emerald-500/30 px-12 py-6 min-h-[56px] min-w-[180px] rounded-lg font-semibold text-lg hover:bg-emerald-500/10 transition-all duration-300 flex items-center justify-center gap-2">
+                <Link 
+  to="/services"
+  className="inline-flex items-center justify-center gap-3 border-2 border-emerald-500/30 px-16 py-8 min-h-[64px] min-w-[220px] rounded-lg font-semibold text-lg hover:bg-emerald-500/10 transition-all duration-300 text-white no-underline"
+>
   Explore Services
-</button>
-                </Link>
+  <ArrowRight className="w-5 h-5" />
+</Link>
               </div>
             </div>
           </div>

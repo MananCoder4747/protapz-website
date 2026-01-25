@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  DollarSign, TrendingUp, Shield, Users, FileText, Calculator, 
+  DollarSign, TrendingUp, Shield, Users,Phone, FileText, Calculator, 
   PieChart, Building, Briefcase, ArrowRight, Check, Clock, 
   Target, Zap, Award, ChevronDown, ChevronUp 
 } from 'lucide-react';

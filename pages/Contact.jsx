@@ -314,7 +314,7 @@ export default function Contact() {
 
                     <button
                       type="submit"
-                      className="w-full bg-gradient-to-r from-emerald-500 to-teal-600 px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 flex items-center justify-center gap-2"
+                      className="w-full bg-gradient-to-r from-emerald-500 to-teal-600 px-10 py-5 min-h-[48px] min-w-[160px] rounded-lg font-semibold text-lg hover:shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 flex items-center justify-center gap-2"
                     >
                       Send Message <Send className="w-5 h-5" />
                     </button>

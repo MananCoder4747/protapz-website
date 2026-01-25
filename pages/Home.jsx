@@ -353,7 +353,7 @@ export default function Home() {
                   </button>
                 </Link>
                 <Link to="/services">
-                  <button className="border-2 border-emerald-500/30 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-emerald-500/10 hover:border-emerald-500 transition-all duration-300">
+                  <button className="border-2 border-emerald-500/30 px-10 py-5 min-h-[48px] min-w-[160px] rounded-lg font-semibold text-lg hover:bg-emerald-500/10 hover:border-emerald-500 transition-all duration-300">
                     Explore Services
                   </button>
                 </Link>

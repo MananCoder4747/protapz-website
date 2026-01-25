@@ -15,21 +15,21 @@ export default function Footer() {
               tax, and advisory services to Australian businesses since 2010.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors">
-                <Linkedin className="w-5 h-5" />
+              <a href="https://linkedin.com/protapz" className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors" aria-label="LinkedIn">
+                <Linkedin className="w-5 h-5" aria-hidden="true" />
               </a>
-              <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors">
-                <Twitter className="w-5 h-5" />
+              <a href="https://twitter.com/protapz" className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors" aria-label="Twitter">
+                <Twitter className="w-5 h-5" aria-hidden="true" />
               </a>
-              <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors">
-                <Facebook className="w-5 h-5" />
+              <a href="https://facebook.com/protapz" className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors" aria-label="Facebook">
+                <Facebook className="w-5 h-5" aria-hidden="true" />
               </a>
             </div>
           </div>
 
           {/* Services Column */}
           <div>
-            <h4 className="font-semibold mb-4 text-lg">Services</h4>
+            <h3 className="font-semibold mb-4 text-lg">Services</h3>
             <ul className="space-y-3 text-slate-400">
               <li><Link to="/services" className="hover:text-emerald-400 transition-colors">Tax Planning</Link></li>
               <li><Link to="/services" className="hover:text-emerald-400 transition-colors">Business Advisory</Link></li>

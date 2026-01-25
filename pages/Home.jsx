@@ -354,9 +354,9 @@ export default function Home() {
 </button>
                 </Link>
                 <Link to="/services">
-                  <button className="border-2 border-emerald-500/30 px-10 py-5 min-h-[48px] min-w-[160px] rounded-lg font-semibold text-lg hover:bg-emerald-500/10 hover:border-emerald-500 transition-all duration-300">
-                    Explore Services
-                  </button>
+                  <button className="border-2 border-emerald-500/30 px-12 py-6 min-h-[56px] min-w-[180px] rounded-lg font-semibold text-lg hover:bg-emerald-500/10 transition-all duration-300 flex items-center justify-center gap-2">
+  Explore Services
+</button>
                 </Link>
               </div>
 
@@ -753,9 +753,9 @@ export default function Home() {
 </button>
             </Link>
             <a href="tel:+918866776724">
-              <button className="border-2 border-slate-700 px-10 py-5 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300">
-                Call +91 88667 76724
-              </button>
+              <button className="border-2 border-slate-700 px-12 py-6 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300 flex items-center justify-center gap-2 min-h-[56px] min-w-[220px]">
+  Call +91 88667 76724
+</button>
             </a>
           </div>
 

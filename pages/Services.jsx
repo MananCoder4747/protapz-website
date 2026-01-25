@@ -466,9 +466,9 @@ export default function Services() {
                 </button>
               </Link>
               <a href="tel:+918866776724">
-                <button className="border-2 border-slate-700 px-10 py-5 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300">
-                  Call +91 8866776724
-                </button>
+                <button className="border-2 border-slate-700 px-12 py-6 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300 flex items-center justify-center gap-2 min-h-[56px] min-w-[220px]">
+  Call +91 88667 76724
+</button>
               </a>
             </div>
           </div>

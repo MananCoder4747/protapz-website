@@ -111,20 +111,22 @@
   position: absolute;
   top: -40px;
   left: 0;
-  background: #065f46;  /* Much darker green */
+  background: #000000;  /* Pure black for maximum contrast */
   color: #ffffff;
   padding: 12px 24px;
   text-decoration: none;
   z-index: 100;
   font-weight: 700;
   border-radius: 4px;
-  border: 3px solid #ffffff;
+  border: 3px solid #fbbf24;  /* Yellow border for visibility */
 }
-    
-    .skip-link:focus {
-      top: 8px;
-      left: 8px;
-    }
+
+.skip-link:focus {
+  top: 8px;
+  left: 8px;
+  outline: 3px solid #fbbf24;
+  outline-offset: 2px;
+}
   </style>
 </head>
 <body>

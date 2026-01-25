@@ -386,8 +386,7 @@ export default function Home() {
   src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=640&fm=webp&q=70"
   srcSet="
     https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=480&fm=webp&q=70 480w,
-    https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=640&fm=webp&q=70 640w,
-    https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=960&fm=webp&q=70 960w
+    https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=640&fm=webp&q=70 640w
   "
   sizes="(max-width: 768px) 90vw, 634px"
   width="634"
@@ -397,6 +396,7 @@ export default function Home() {
   decoding="async"
   alt="Financial Dashboard"
 />
+
 
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
               </div>

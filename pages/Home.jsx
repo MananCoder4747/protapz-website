@@ -348,9 +348,10 @@ export default function Home() {
               
               <div className="flex flex-col sm:flex-row gap-4 animate-slide-up delay-300">
                 <Link to="/contact">
-                  <button className="bg-gradient-to-r from-emerald-500 to-teal-600 px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 flex items-center justify-center gap-2 glow-pulse">
-                    Get Free Consultation <ChevronRight className="w-5 h-5" />
-                  </button>
+                  <button className="bg-gradient-to-r from-emerald-500 to-teal-600 px-12 py-6 rounded-lg font-semibold text-lg hover:shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 flex items-center justify-center gap-2 min-h-[56px] min-w-[200px]">
+  Get Free Consultation
+  <ChevronRight className="w-5 h-5" />
+</button>
                 </Link>
                 <Link to="/services">
                   <button className="border-2 border-emerald-500/30 px-10 py-5 min-h-[48px] min-w-[160px] rounded-lg font-semibold text-lg hover:bg-emerald-500/10 hover:border-emerald-500 transition-all duration-300">
@@ -746,9 +747,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact">
-              <button className="bg-gradient-to-r from-emerald-500 to-teal-600 px-10 py-5 rounded-lg font-semibold text-lg hover:shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 flex items-center justify-center gap-2">
-                Get Free Consultation <ArrowRight className="w-5 h-5" />
-              </button>
+              <button className="bg-gradient-to-r from-emerald-500 to-teal-600 px-12 py-6 rounded-lg font-semibold text-lg hover:shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 flex items-center justify-center gap-2 min-h-[56px] min-w-[200px]">
+  Get Free Consultation
+  <ChevronRight className="w-5 h-5" />
+</button>
             </Link>
             <a href="tel:+918866776724">
               <button className="border-2 border-slate-700 px-10 py-5 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300">

@@ -40,102 +40,99 @@
   
   <!-- Critical CSS (Above-the-fold) - Inlined for fastest paint -->
   <style>
-    /* Reset & Base */
-    * { 
-      box-sizing: border-box; 
-      margin: 0; 
-      padding: 0; 
-    }
-    
-    html {
-      -webkit-tap-highlight-color: transparent;
-      text-rendering: optimizeLegibility;
-    }
-    
-    body { 
-      margin: 0; 
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      background-color: #0f172a;
-      color: #ffffff;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-    
-    #root { 
-      min-height: 100vh; 
-    }
-    
-    /* Above-the-fold critical styles */
-    .gradient-text {
-      background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    
-    /* Navigation critical styles */
-    nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 50;
-      backdrop-filter: blur(10px);
-      background: rgba(15, 23, 42, 0.8);
-    }
-    
-    /* Loading indicator */
-    .loading { 
-      display: flex; 
-      align-items: center; 
-      justify-content: center; 
-      min-height: 100vh;
-      background: #0f172a;
-    }
-    
-    .spinner {
-      width: 50px;
-      height: 50px;
-      border: 3px solid #1e293b;
-      border-top-color: #10b981;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-    }
-    
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-    
-    /* Skip link for accessibility */
+  * { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  html {
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+  }
+  
+  body { 
+    margin: 0; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #0f172a;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  #root { 
+    min-height: 100vh; 
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    backdrop-filter: blur(10px);
+    background: rgba(15, 23, 42, 0.8);
+  }
+  
+  .loading { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh;
+    background: #0f172a;
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #1e293b;
+    border-top-color: #10b981;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  /* SKIP LINK - MAXIMUM CONTRAST */
   .skip-link {
-  position: absolute;
-  top: -100px;
-  left: 0;
-  background: #1e40af;  /* Dark blue */
-  color: #ffffff;
-  padding: 20px 40px;
-  text-decoration: none;
-  z-index: 100;
-  font-weight: 700;
-  border-radius: 8px;
-  border: 4px solid #ffffff;
-  font-size: 18px;
-  line-height: 1.5;
-  min-height: 64px;
-  min-width: 220px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-}
-
-.skip-link:focus {
-  top: 16px;
-  left: 16px;
-  outline: 4px solid #fbbf24;
-  outline-offset: 4px;
-}
-  </style>
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    text-decoration: none;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    min-height: 64px;
+    min-width: 220px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+  }
+  
+  .skip-link:focus {
+    top: 16px;
+    left: 16px;
+    background-color: #000000;
+    color: #FFFFFF;
+    outline: 4px solid #FFFF00;
+    outline-offset: 4px;
+  }
+</style>
 </head>
 <body>
   <!-- Skip to main content for accessibility -->

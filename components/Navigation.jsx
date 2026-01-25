@@ -32,9 +32,13 @@ export default function Navigation() {
       scrolled ? 'nav-blur py-4' : 'bg-transparent py-6'
     }`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <Link to="/" className="text-2xl font-bold">
-          <span className="gradient-text">Protapz</span>
-        </Link>
+        <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+  <img 
+    src="/logo.svg" 
+    alt="Protapz - Australian Accounting Services" 
+    className="h-10 w-auto"
+  />
+</Link>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">

@@ -429,6 +429,26 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Quick Links Section - Helps Google Find Pages */}
+<section className="py-16 px-6">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-3xl font-bold mb-8">Explore Our Services</h2>
+    <div className="grid md:grid-cols-3 gap-6">
+      <Link to="/services" className="p-6 bg-slate-800 rounded-lg hover:bg-slate-700">
+        <h3 className="text-xl font-bold mb-2">Our Services</h3>
+        <p className="text-slate-400">View our complete range of Australian accounting services including tax returns, BAS, bookkeeping, and more.</p>
+      </Link>
+      <Link to="/about" className="p-6 bg-slate-800 rounded-lg hover:bg-slate-700">
+        <h3 className="text-xl font-bold mb-2">About Us</h3>
+        <p className="text-slate-400">Learn about our team of Australian-trained accountants based in India.</p>
+      </Link>
+      <Link to="/contact" className="p-6 bg-slate-800 rounded-lg hover:bg-slate-700">
+        <h3 className="text-xl font-bold mb-2">Contact Us</h3>
+        <p className="text-slate-400">Get in touch for a free consultation about your accounting needs.</p>
+      </Link>
+    </div>
+  </div>
+</section>
 
       {/* Services Section - Comprehensive */}
       <section id="services" className="py-24 px-6">

@@ -382,12 +382,22 @@ export default function Home() {
             {/* Hero Image/Illustration */}
             <div className="relative animate-slide-up delay-200">
               <div className="relative rounded-2xl overflow-hidden border border-slate-800">
-                <img 
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=50&fm=webp" 
-                  alt="Financial Dashboard"
-                  width="1200" height="600" loading="lazy"
-                  className="w-full h-auto"
-                />
+                <img
+  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=640&fm=webp&q=70"
+  srcSet="
+    https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=480&fm=webp&q=70 480w,
+    https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=640&fm=webp&q=70 640w,
+    https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=960&fm=webp&q=70 960w
+  "
+  sizes="(max-width: 768px) 90vw, 634px"
+  width="634"
+  height="451"
+  className="w-full h-auto"
+  loading="eager"
+  decoding="async"
+  alt="Financial Dashboard"
+/>
+
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
               </div>
               {/* Floating Stats Cards */}

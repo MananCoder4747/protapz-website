@@ -1,13 +1,21 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-const base = process.env.BASE_PATH ?? '/'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base,
-  server: {
-    port: 3000,
-    open: true
-  }
+  publicDir: 'public',
+  build: {
+    minify: 'esbuild',
+    outDir: 'dist',
+    emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom'],
+          'router': ['react-router-dom'],
+          'icons': ['lucide-react'],
+        },
+      },
+    },
+  },
 })

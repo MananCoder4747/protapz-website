@@ -34,10 +34,14 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
   <img 
-    src="/logo.svg" 
-    alt="Protapz - Australian Accounting Services" 
-    className="h-10 w-auto"
-  />
+  src="/logo.svg" 
+  alt="Protapz - Australian Accounting Services" 
+  className="h-10 w-auto"
+  width="180"
+  height="50"
+  fetchpriority="high"
+  decoding="async"
+/>
 </Link>
         
         {/* Desktop Navigation */}

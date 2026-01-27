@@ -5,7 +5,15 @@ export default defineConfig({
   plugins: [react()],
   publicDir: 'public',
   build: {
-    minify: 'esbuild',
+    minify: 'terser',  // Better minification than esbuild
+    cssMinify: 'lightningcss',
+    terserOptions: {
+      compress: {
+        drop_console: true,  // Remove console.logs
+        drop_debugger: true,
+      },
+    },
+    cssCodeSplit: true,
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
@@ -19,6 +27,14 @@ export default defineConfig({
           'icons': ['lucide-react'],
         },
       },
+    },
+  },
+  css: {
+    devSourcemap: false,
+  },
+  server: {
+    warmup: {
+      clientFiles: ['./src/main.jsx', './src/App.jsx'],
     },
   },
 })

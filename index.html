@@ -4,7 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="FitMTQ5aitNTnu2rb_gJ_UGvhflgf2zVxusJnPq2aA8" />
+
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="/logo.svg" as="image" type="image/svg+xml" />
+  <link rel="preload" as="style" href="/assets/index-HASH.css" />
+  <link rel="preload" as="script" href="/assets/index-HASH.js" />
   <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -50,6 +56,7 @@
   
   <!-- Critical CSS (Above-the-fold) - Inlined for fastest paint -->
   <style>
+  /* Existing critical CSS */
   * { 
     box-sizing: border-box; 
     margin: 0; 
@@ -74,13 +81,7 @@
     min-height: 100vh; 
   }
   
-  .gradient-text {
-    background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  
+  /* Navigation - Critical */
   nav {
     position: fixed;
     top: 0;
@@ -91,6 +92,29 @@
     background: rgba(15, 23, 42, 0.8);
   }
   
+  /* Hero Section - Critical for LCP */
+  .hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+  }
+  
+  /* Gradient - Critical */
+  .gradient-text {
+    background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Buttons - Critical */
+  button, a {
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  /* Loading */
   .loading { 
     display: flex; 
     align-items: center; 
@@ -112,7 +136,7 @@
     to { transform: rotate(360deg); }
   }
   
-  /* SKIP LINK - MAXIMUM CONTRAST */
+  /* Skip link */
   .skip-link {
     position: absolute !important;
     top: -100px !important;
@@ -124,7 +148,6 @@
     z-index: 100 !important;
     font-weight: 700 !important;
     font-size: 18px !important;
-    line-height: 1.5 !important;
     min-height: 64px !important;
     min-width: 220px !important;
     display: inline-flex !important;
@@ -137,8 +160,6 @@
   .skip-link:focus {
     top: 16px !important;
     left: 16px !important;
-    background-color: #000000 !important;
-    color: #FFFFFF !important;
     outline: 4px solid #FFFF00 !important;
     outline-offset: 4px !important;
   }
@@ -162,7 +183,7 @@
 <script type="module" src="/main.jsx"></script>
   
   <!-- Service Worker Registration - Deferred for performance -->
-  <!-- <script>
+  <script defer>
     if ('serviceWorker' in navigator) {
       // Defer SW registration to not block initial load
       window.addEventListener('load', () => {
@@ -171,6 +192,6 @@
         }, 3000);
       });
     }
-  </script> -->
+  </script>
 </body>
 </html>

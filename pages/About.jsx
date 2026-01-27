@@ -348,12 +348,9 @@ export default function About() {
                     Get Started Today <ArrowRight className="w-5 h-5" />
                   </button>
                 </Link>
-                <Link 
-  to="/services"
-  className="inline-flex items-center justify-center gap-3 border-2 border-emerald-500/30 px-16 py-8 min-h-[64px] min-w-[220px] rounded-lg font-semibold text-lg hover:bg-emerald-500/10 transition-all duration-300 text-white no-underline"
->
+                <Link to="/services" className="inline-flex items-center justify-center gap-2 border-2 border-emerald-500/30 px-8 py-4 rounded-lg font-semibold text-base hover:bg-emerald-500/10 transition-all duration-300 min-h-[48px] text-white no-underline">
   Explore Services
-  <ArrowRight className="w-5 h-5" />
+  <ArrowRight className="w-5 h-5" aria-hidden="true" />
 </Link>
               </div>
             </div>

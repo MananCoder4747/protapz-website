@@ -465,11 +465,8 @@ export default function Services() {
                   Book Free Consultation <ArrowRight className="w-5 h-5" />
                 </button>
               </Link>
-              <a 
-  href="tel:+918866776724"
-  className="inline-flex items-center justify-center gap-3 border-2 border-slate-700 px-16 py-8 rounded-lg font-semibold text-lg hover:bg-slate-800 transition-all duration-300 min-h-[64px] min-w-[260px] text-white no-underline"
->
-  <Phone className="w-5 h-5" />
+              <a href="tel:+918866776724" className="inline-flex items-center justify-center gap-2 border-2 border-slate-700 px-8 py-4 rounded-lg font-semibold text-base hover:bg-slate-800 transition-all duration-300 min-h-[48px] text-white no-underline">
+  <Phone className="w-5 h-5" aria-hidden="true" />
   Call +91 88667 76724
 </a>
             </div>

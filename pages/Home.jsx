@@ -347,19 +347,13 @@ export default function Home() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 animate-slide-up delay-300">
-                <Link 
-  to="/contact" 
-  className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-emerald-500 to-teal-600 px-16 py-8 rounded-lg font-semibold text-lg hover:shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 min-h-[64px] min-w-[260px] text-white no-underline"
->
+                <Link to="/contact" className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-600 px-8 py-4 rounded-lg font-semibold text-base hover:shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 min-h-[48px] text-white no-underline">
   Get Free Consultation
-  <ChevronRight className="w-5 h-5" />
+  <ChevronRight className="w-5 h-5" aria-hidden="true" />
 </Link>
-                <Link 
-  to="/services"
-  className="inline-flex items-center justify-center gap-3 border-2 border-emerald-500/30 px-16 py-8 min-h-[64px] min-w-[220px] rounded-lg font-semibold text-lg hover:bg-emerald-500/10 transition-all duration-300 text-white no-underline"
->
+                <Link to="/services" className="inline-flex items-center justify-center gap-2 border-2 border-emerald-500/30 px-8 py-4 rounded-lg font-semibold text-base hover:bg-emerald-500/10 transition-all duration-300 min-h-[48px] text-white no-underline">
   Explore Services
-  <ArrowRight className="w-5 h-5" />
+  <ArrowRight className="w-5 h-5" aria-hidden="true" />
 </Link>
               </div>
 

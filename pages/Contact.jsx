@@ -133,6 +133,12 @@ export default function Contact() {
   ];
 
   return (
+    <>
+    <Helmet>
+      <title>Contact - Protapz Australian Accounting | Tax, BAS, Bookkeeping</title>
+      <meta name="description" content="Contact Protapz for professional Australian accounting services. We offer tax returns, BAS/GST lodgement, Xero & MYOB bookkeeping, payroll, and SMSF administration. ATO compliant." />
+      <link rel="canonical" href="https://www.protapz.co.in/contact" />
+    </Helmet>
     <main id = "main-content" role="main">
     <div className="min-h-screen">
       <style>{`
@@ -468,5 +474,6 @@ export default function Contact() {
       </div>
     </div>
     </main>
+    </>
   );
 }

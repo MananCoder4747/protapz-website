@@ -6,6 +6,7 @@ import {
   FileText, Calculator, PieChart, Building2, Briefcase, BookOpen,
   MessageSquare, Phone, Mail, Clock, Play, Download, ExternalLink
 } from 'lucide-react';
+import { Helmet } from 'react-helmet-async'
 
 export default function Home() {
   const [statsVisible, setStatsVisible] = useState(false);
@@ -316,6 +317,12 @@ export default function Home() {
   };
 
   return (
+    <>
+    <Helmet>
+      <title>Home - Protapz Australian Accounting | Tax, BAS, Bookkeeping</title>
+      <meta name="description" content="Comprehensive Australian accounting services: Tax returns, BAS/GST lodgement, Xero & MYOB bookkeeping, payroll, and SMSF administration. ATO compliant." />
+      <link rel="canonical" href="https://www.protapz.co.in/" />
+    </Helmet>
     <main id = "main-content" role="main">
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -788,5 +795,6 @@ export default function Home() {
       </section>
     </div>
     </main>
+    </>
   );
 }

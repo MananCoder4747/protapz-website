@@ -235,6 +235,12 @@ export default function Services() {
   ];
 
   return (
+    <>      
+    <Helmet>
+      <title>Services - Protapz Australian Accounting | Tax, BAS, Bookkeeping</title>
+      <meta name="description" content="Comprehensive Australian accounting services: Tax returns, BAS/GST lodgement, Xero & MYOB bookkeeping, payroll, and SMSF administration. ATO compliant." />
+      <link rel="canonical" href="https://www.protapz.co.in/services" />
+    </Helmet>
     <main id = "main-content" role="main">
     <div className="min-h-screen">
       <style>{`
@@ -475,5 +481,6 @@ export default function Services() {
       </div>
     </div>
     </main>
+    </>
   );
 }

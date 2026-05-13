@@ -34,7 +34,7 @@ export default defineConfig({
   },
   server: {
     warmup: {
-      clientFiles: ['./src/main.jsx', './src/App.jsx'],
+      clientFiles: ['./main.jsx', './App.jsx'],
     },
   },
 })

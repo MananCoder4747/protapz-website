@@ -1,0 +1,30 @@
+<svg width="180" height="50" viewBox="0 0 180 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient matching website -->
+  <defs>
+    <linearGradient id="siteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon: Modern P with accounting chart -->
+  <g transform="translate(5, 5)">
+    <!-- Rounded square background with gradient -->
+    <rect x="0" y="0" width="40" height="40" rx="8" fill="url(#siteGrad)" opacity="0.1"/>
+    <rect x="0" y="0" width="40" height="40" rx="8" stroke="url(#siteGrad)" stroke-width="2" fill="none"/>
+    
+    <!-- Letter P -->
+    <path d="M 12 12 L 12 28 M 12 12 L 20 12 Q 24 12 24 16 Q 24 20 20 20 L 12 20" 
+          stroke="#10b981" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Mini chart bars -->
+    <rect x="26" y="22" width="2.5" height="6" fill="#10b981" rx="1"/>
+    <rect x="30" y="18" width="2.5" height="10" fill="#06b6d4" rx="1"/>
+    <rect x="34" y="15" width="2.5" height="13" fill="#0ea5e9" rx="1"/>
+  </g>
+  
+  <!-- Company name with gradient -->
+  <text x="52" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="url(#siteGrad)">
+    Protapz
+  </text>
+</svg>

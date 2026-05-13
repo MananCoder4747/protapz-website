@@ -148,17 +148,17 @@ export default function Home() {
     },
     {
       text: "As an Australian business owner, finding reliable offshore accounting was crucial. Protapz team understands AU compliance inside-out. They handle our MYOB, payroll, and quarterly BAS flawlessly.",
-      author: "Simon Dutta",
+      author: "Sarah Johnson",
       role: "Owner",
-      company: "Fast Accounting",
+      company: "Johnson Consulting",
       rating: 5,
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=50&fm=webp"
     },
     {
       text: "Excellent service for our construction company. They manage our Xero bookkeeping, employee super, and company tax returns. Very responsive and great value compared to local firms.",
-      author: "James Thompson",
+      author: "Simon Dutta",
       role: "Managing Director",
-      company: "Brisbane Builders Pty Ltd",
+      company: "Fast Accounting Pty Ltd",
       rating: 5,
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=50&fm=webp"
     },

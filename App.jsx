@@ -9,6 +9,10 @@ import Home from './pages/Home'
 const Services = lazy(() => import('./pages/Services'))
 const About = lazy(() => import('./pages/About'))
 const Contact = lazy(() => import('./pages/Contact'))
+const ServiceDetail = lazy(() => import('./pages/ServiceDetail'))
+const IndustryDetail = lazy(() => import('./pages/IndustryDetail'))
+const Insights = lazy(() => import('./pages/Insights'))
+const ArticleDetail = lazy(() => import('./pages/ArticleDetail'))
 
 // Loading component
 const PageLoader = () => (
@@ -26,8 +30,12 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/services/:slug" element={<ServiceDetail />} />
+            <Route path="/industries/:slug" element={<IndustryDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/insights" element={<Insights />} />
+            <Route path="/insights/:slug" element={<ArticleDetail />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>

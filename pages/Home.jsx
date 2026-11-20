@@ -33,7 +33,7 @@ export default function Home() {
       description: "Individual and business tax returns for Australian residents and companies. Expert preparation, lodgement, and ATO liaison services.",
       color: "from-emerald-500 to-teal-600",
       features: ["Individual Returns", "Company Tax", "Trust Returns", "Partnership"],
-      link: "/services#tax"
+      link: "/services/australian-tax-returns"
     },
     {
       icon: <FileText className="w-8 h-8" />,
@@ -41,7 +41,7 @@ export default function Home() {
       description: "Business Activity Statement preparation and GST compliance. Quarterly and monthly BAS lodgement with ATO.",
       color: "from-blue-500 to-indigo-600",
       features: ["BAS Preparation", "GST Returns", "IAS Lodgement", "Compliance"],
-      link: "/services#bas"
+      link: "/services/bas-gst"
     },
     {
       icon: <Calculator className="w-8 h-8" />,
@@ -49,7 +49,7 @@ export default function Home() {
       description: "Daily bookkeeping, Xero/MYOB setup, bank reconciliation, and financial reporting for Australian businesses.",
       color: "from-purple-500 to-pink-600",
       features: ["Xero/MYOB", "Bank Reco", "Payables/Receivables", "Reports"],
-      link: "/services#bookkeeping"
+      link: "/services/bookkeeping"
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -57,7 +57,7 @@ export default function Home() {
       description: "Australian payroll processing, superannuation compliance, Single Touch Payroll (STP), and employee taxation.",
       color: "from-orange-500 to-red-600",
       features: ["Payroll Processing", "Super Compliance", "STP", "PAYG"],
-      link: "/services#payroll"
+      link: "/services/payroll-super"
     },
     {
       icon: <TrendingUp className="w-8 h-8" />,
@@ -65,7 +65,7 @@ export default function Home() {
       description: "Virtual CFO services for Australian SMEs. Strategic planning, cash flow forecasting, and business growth advisory.",
       color: "from-cyan-500 to-blue-600",
       features: ["Cash Flow", "Forecasting", "KPIs", "Strategy"],
-      link: "/services#cfo"
+      link: "/services/cfo"
     },
     {
       icon: <Shield className="w-8 h-8" />,
@@ -73,7 +73,7 @@ export default function Home() {
       description: "Self-Managed Super Fund administration, compliance, and reporting. Annual statements and audit coordination.",
       color: "from-pink-500 to-rose-600",
       features: ["SMSF Admin", "Compliance", "Annual Returns", "Audit Support"],
-      link: "/services#smsf"
+      link: "/services/smsf"
     },
     {
       icon: <Building2 className="w-8 h-8" />,
@@ -81,7 +81,7 @@ export default function Home() {
       description: "Australian company registration, ABN/ACN application, business structure advice, and ASIC compliance.",
       color: "from-violet-500 to-purple-600",
       features: ["Company Reg", "ABN/ACN", "Structure", "ASIC Filing"],
-      link: "/services#setup"
+      link: "/services/company-setup"
     },
     {
       icon: <PieChart className="w-8 h-8" />,
@@ -89,7 +89,7 @@ export default function Home() {
       description: "Financial analysis, budgeting, variance reporting, and KPI dashboards for better business decisions.",
       color: "from-teal-500 to-emerald-600",
       features: ["Budgeting", "Variance", "KPI Tracking", "Analytics"],
-      link: "/services#management"
+      link: "/services/management-accounting"
     },
     {
       icon: <Briefcase className="w-8 h-8" />,
@@ -97,7 +97,7 @@ export default function Home() {
       description: "Strategic business advice, profitability improvement, cost reduction, and growth planning for AU businesses.",
       color: "from-amber-500 to-orange-600",
       features: ["Strategy", "Cost Reduction", "Growth Plans", "Advisory"],
-      link: "/services#advisory"
+      link: "/services/business-advisory"
     },
     {
       icon: <BarChart className="w-8 h-8" />,
@@ -105,7 +105,7 @@ export default function Home() {
       description: "Monthly financial statements, management reports, P&L analysis, and balance sheet preparation.",
       color: "from-rose-500 to-pink-600",
       features: ["Monthly Reports", "P&L Analysis", "Balance Sheet", "Cash Flow"],
-      link: "/services#reporting"
+      link: "/services/financial-reporting"
     },
     {
       icon: <Globe className="w-8 h-8" />,
@@ -113,7 +113,7 @@ export default function Home() {
       description: "Tax services for Australian expats and foreign residents. Cross-border taxation and compliance support.",
       color: "from-indigo-500 to-blue-600",
       features: ["Expat Returns", "Foreign Income", "Residency", "Compliance"],
-      link: "/services#expat"
+      link: "/services/expat-tax"
     },
     {
       icon: <BookOpen className="w-8 h-8" />,
@@ -121,20 +121,20 @@ export default function Home() {
       description: "Proactive tax planning strategies, deduction optimization, and year-end tax minimization for Australian entities.",
       color: "from-emerald-500 to-green-600",
       features: ["Tax Strategy", "Deductions", "Year-End", "Optimization"],
-      link: "/services#planning"
+      link: "/services/tax-planning"
     }
   ];
 
   const industries = [
-    { name: "Technology & SaaS", icon: "💻", count: "150+ AU clients", image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&q=50&fm=webp" },
-    { name: "E-commerce & Online Retail", icon: "🛍️", count: "120+ AU clients", image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=50&fm=webp" },
-    { name: "Construction & Trades", icon: "🏗️", count: "100+ AU clients", image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=50&fm=webp" },
-    { name: "Healthcare & Medical", icon: "🏥", count: "80+ AU clients", image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&q=50&fm=webp" },
-    { name: "Property & Real Estate", icon: "🏢", count: "90+ AU clients", image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=50&fm=webp" },
-    { name: "Professional Services", icon: "⚖️", count: "110+ AU clients", image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=50&fm=webp" },
-    { name: "Hospitality & Tourism", icon: "🍽️", count: "65+ AU clients", image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=50&fm=webp" },
-    { name: "Mining & Resources", icon: "⛏️", count: "45+ AU clients", image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&q=50&fm=webp" },
-    { name: "Agriculture & Farming", icon: "🌾", count: "55+ AU clients", image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&q=50&fm=webp" }
+    { name: "Technology & SaaS", slug: "technology-saas", icon: "💻", count: "150+ AU clients", image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&q=50&fm=webp" },
+    { name: "E-commerce & Online Retail", slug: "ecommerce-retail", icon: "🛍️", count: "120+ AU clients", image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=50&fm=webp" },
+    { name: "Construction & Trades", slug: "construction-trades", icon: "🏗️", count: "100+ AU clients", image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=50&fm=webp" },
+    { name: "Healthcare & Medical", slug: "healthcare-medical", icon: "🏥", count: "80+ AU clients", image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&q=50&fm=webp" },
+    { name: "Property & Real Estate", slug: "property-real-estate", icon: "🏢", count: "90+ AU clients", image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=50&fm=webp" },
+    { name: "Professional Services", slug: "professional-services", icon: "⚖️", count: "110+ AU clients", image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=50&fm=webp" },
+    { name: "Hospitality & Tourism", slug: "hospitality-tourism", icon: "🍽️", count: "65+ AU clients", image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=50&fm=webp" },
+    { name: "Mining & Resources", slug: "mining-resources", icon: "⛏️", count: "45+ AU clients", image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&q=50&fm=webp" },
+    { name: "Agriculture & Farming", slug: "agriculture-farming", icon: "🌾", count: "55+ AU clients", image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&q=50&fm=webp" }
   ];
 
   const testimonials = [
@@ -269,6 +269,7 @@ export default function Home() {
 
   const blogPosts = [
     {
+      slug: "bas-lodgement-guide-2026",
       title: "Complete Guide to BAS Lodgement in Australia 2026",
       excerpt: "Everything you need to know about Business Activity Statements, GST reporting, and quarterly compliance with the ATO.",
       category: "Tax & Compliance",
@@ -277,6 +278,7 @@ export default function Home() {
       date: "Jan 15, 2026"
     },
     {
+      slug: "xero-vs-myob-australian-business",
       title: "Xero vs MYOB: Which is Right for Your Australian Business?",
       excerpt: "Comprehensive comparison of Australia's two leading cloud accounting platforms with pricing, features, and recommendations.",
       category: "Accounting Software",
@@ -285,6 +287,7 @@ export default function Home() {
       date: "Jan 10, 2026"
     },
     {
+      slug: "payday-super-2026-employer-guide",
       title: "Superannuation Compliance: STP & Employer Obligations",
       excerpt: "Stay compliant with Single Touch Payroll and super guarantee obligations. Avoid ATO penalties with our expert guide.",
       category: "Payroll & Super",
@@ -612,8 +615,9 @@ export default function Home() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {industries.map((industry, index) => (
-              <div
+              <Link
                 key={index}
+                to={`/industries/${industry.slug}`}
                 className="bg-slate-900/50 backdrop-blur border border-slate-800 rounded-xl overflow-hidden hover:border-emerald-500/50 transition-all duration-300 hover:transform hover:scale-105 cursor-pointer group"
               >
                 <div className="relative h-32 overflow-hidden">
@@ -632,7 +636,7 @@ export default function Home() {
                   <h3 className="font-semibold text-lg mb-1">{industry.name}</h3>
                   <p className="text-sm text-slate-400">{industry.count}</p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -694,15 +698,16 @@ export default function Home() {
                 Expert knowledge and industry updates
               </p>
             </div>
-            <button className="hidden md:block bg-slate-900/50 border border-emerald-500/30 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-500/10 hover:border-emerald-500 transition-all duration-300">
+            <Link to="/insights" className="hidden md:block bg-slate-900/50 border border-emerald-500/30 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-500/10 hover:border-emerald-500 transition-all duration-300 no-underline text-white">
               View All Articles →
-            </button>
+            </Link>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {blogPosts.map((post, index) => (
-              <div
+              <Link
                 key={index}
+                to={`/insights/${post.slug}`}
                 className="bg-slate-900/50 backdrop-blur border border-slate-800 rounded-2xl overflow-hidden hover:border-emerald-500/50 transition-all duration-300 group cursor-pointer"
               >
                 <div className="relative h-48 overflow-hidden">
@@ -732,14 +737,14 @@ export default function Home() {
                     Read More <ArrowRight className="w-4 h-4" />
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 
           <div className="text-center mt-12 md:hidden">
-            <button className="bg-slate-900/50 border border-emerald-500/30 px-10 py-4 rounded-lg font-semibold hover:bg-emerald-500/10 hover:border-emerald-500 transition-all duration-300">
+            <Link to="/insights" className="inline-block bg-slate-900/50 border border-emerald-500/30 px-10 py-4 rounded-lg font-semibold hover:bg-emerald-500/10 hover:border-emerald-500 transition-all duration-300 no-underline text-white">
               View All Articles →
-            </button>
+            </Link>
           </div>
         </div>
       </section>

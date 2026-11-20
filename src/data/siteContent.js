@@ -107,6 +107,24 @@ export const serviceDetails = {
     benefits: ['Annual and multi-year tax planning', 'Entity, asset and investment structuring', 'Deduction and timing reviews', 'ATO risk and compliance planning'],
     process: ['Establish facts, goals and forecast income', 'Model practical tax scenarios', 'Implement agreed actions and records', 'Monitor changes through the year'],
   },
+  'corporate-structuring': {
+    title: 'Corporate Structuring',
+    eyebrow: 'Tax-efficient entity design',
+    summary: 'Review and establish Australian company, trust and ownership structures for tax efficiency and asset protection.',
+    image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&q=70&fm=webp',
+    overview: 'We assess how your business and assets are owned, operated and distributed. Recommendations consider tax, governance, succession and the practical cost of implementation.',
+    benefits: ['Entity and ownership review', 'Trust, company and family structure advice', 'Asset protection considerations', 'Succession and distribution planning'],
+    process: ['Review ownership and business activity', 'Model structure options and risks', 'Coordinate implementation with advisers', 'Document ongoing compliance requirements'],
+  },
+  'startup-support': {
+    title: 'Startup & Scale-up Support',
+    eyebrow: 'Financial foundations for growth',
+    summary: 'Accounting, reporting and tax support from incorporation and R&D claims through to investor-ready growth.',
+    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=70&fm=webp',
+    overview: 'We build practical finance systems for founders and growing teams, combining clean accounts with the reporting, governance and tax support needed for investment and scale.',
+    benefits: ['Registration and accounting setup', 'R&D and grant support coordination', 'Investor-ready monthly reporting', 'Board, KPI and growth forecasting'],
+    process: ['Understand the funding and growth roadmap', 'Set up systems and reporting', 'Support tax, payroll and compliance cycles', 'Review performance and prepare for milestones'],
+  },
 };
 
 export const industryDetails = {

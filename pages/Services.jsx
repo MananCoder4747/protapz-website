@@ -1,19 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { 
   DollarSign, TrendingUp, Shield, Users,Phone, FileText, Calculator, 
   PieChart, Building, Briefcase, ArrowRight, Check, Clock, 
-  Target, Zap, Award, ChevronDown, ChevronUp 
+  Target, Zap, Award
 } from 'lucide-react';
 
 export default function Services() {
-  const [expandedService, setExpandedService] = useState(null);
-  const [selectedPackage, setSelectedPackage] = useState('growth');
-
   const mainServices = [
     {
       id: 'tax',
+      detailSlug: 'tax-planning',
       icon: <DollarSign className="w-10 h-10" />,
       title: "Tax Planning & Compliance",
       subtitle: "Strategic tax solutions for maximum efficiency",
@@ -38,6 +36,7 @@ export default function Services() {
     },
     {
       id: 'advisory',
+      detailSlug: 'business-advisory',
       icon: <TrendingUp className="w-10 h-10" />,
       title: "Business Advisory & CFO Services",
       subtitle: "Strategic guidance for growth and profitability",
@@ -62,6 +61,7 @@ export default function Services() {
     },
     {
       id: 'bookkeeping',
+      detailSlug: 'bookkeeping',
       icon: <FileText className="w-10 h-10" />,
       title: "Bookkeeping & Payroll",
       subtitle: "Accurate records, compliant payroll, on time",
@@ -86,6 +86,7 @@ export default function Services() {
     },
     {
       id: 'smsf',
+      detailSlug: 'smsf',
       icon: <Shield className="w-10 h-10" />,
       title: "SMSF & Wealth Management",
       subtitle: "Secure your retirement with expert fund management",
@@ -110,6 +111,7 @@ export default function Services() {
     },
     {
       id: 'corporate',
+      detailSlug: 'corporate-structuring',
       icon: <Building className="w-10 h-10" />,
       title: "Corporate Structuring",
       subtitle: "Optimize your business structure for efficiency",
@@ -134,6 +136,7 @@ export default function Services() {
     },
     {
       id: 'startup',
+      detailSlug: 'startup-support',
       icon: <Zap className="w-10 h-10" />,
       title: "Startup & Scale-up Support",
       subtitle: "Launch and grow with expert financial guidance",
@@ -305,41 +308,13 @@ export default function Services() {
                     <p className="text-emerald-400 text-sm mb-4">{service.subtitle}</p>
                     <p className="text-slate-400 mb-6">{service.description}</p>
                     
-                    <button
-                      onClick={() => setExpandedService(expandedService === service.id ? null : service.id)}
-                      className="text-emerald-400 font-semibold flex items-center gap-2 hover:gap-3 transition-all mb-4"
+                    <Link
+                      to={`/services/${service.detailSlug}`}
+                      className="text-emerald-400 font-semibold flex items-center gap-2 hover:gap-3 transition-all mb-4 no-underline"
                     >
-                      {expandedService === service.id ? 'Show Less' : 'Learn More'}
-                      {expandedService === service.id ? 
-                        <ChevronUp className="w-4 h-4" /> : 
-                        <ChevronDown className="w-4 h-4" />
-                      }
-                    </button>
+                      Learn More <ArrowRight className="w-4 h-4" />
+                    </Link>
                   </div>
-
-                  {expandedService === service.id && (
-                    <div className="px-8 pb-8 border-t border-slate-800 pt-6 animate-fade-in">
-                      <h4 className="font-semibold mb-3 text-lg">What's Included:</h4>
-                      <ul className="space-y-2 mb-6">
-                        {service.features.map((feature, i) => (
-                          <li key={i} className="flex items-start gap-2 text-slate-300">
-                            <Check className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" />
-                            <span>{feature}</span>
-                          </li>
-                        ))}
-                      </ul>
-                      
-                      <h4 className="font-semibold mb-3 text-lg">Key Benefits:</h4>
-                      <ul className="space-y-2">
-                        {service.benefits.map((benefit, i) => (
-                          <li key={i} className="flex items-start gap-2 text-slate-300">
-                            <Target className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
-                            <span>{benefit}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
                 </div>
               ))}
             </div>

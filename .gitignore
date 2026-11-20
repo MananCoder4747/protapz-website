@@ -6,3 +6,5 @@ dist/
 npm-debug.log*
 pnpm-debug.log*
 vite.svg
+.vercel
+.env*

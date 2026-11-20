@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Protapz Australian Accounting Insights</title>
+    <link>https://www.protapz.co.in/insights</link>
+    <description>Australian tax, BAS, GST, payroll, superannuation and accounting guidance.</description>
+    <language>en-AU</language>
+    <item>
+      <title>Payday Super 2026: What Australian Employers Need to Prepare</title>
+      <link>https://www.protapz.co.in/insights/payday-super-2026-employer-guide</link>
+      <guid>https://www.protapz.co.in/insights/payday-super-2026-employer-guide</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Super guarantee contributions move to every payday from 1 July 2026. Here is what employers should review now.</description>
+    </item>
+    <item>
+      <title>2026–27 Australian Tax Budget: Key Policy Areas to Watch</title>
+      <link>https://www.protapz.co.in/insights/2026-27-australian-tax-budget-update</link>
+      <guid>https://www.protapz.co.in/insights/2026-27-australian-tax-budget-update</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A plain-English overview of budget measures affecting tax and super from the 2026–27 Federal Budget.</description>
+    </item>
+    <item>
+      <title>BAS Lodgement in 2026: Dates, Checks and Common Errors</title>
+      <link>https://www.protapz.co.in/insights/bas-lodgement-guide-2026</link>
+      <guid>https://www.protapz.co.in/insights/bas-lodgement-guide-2026</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A practical checklist for monthly and quarterly BAS preparation, GST reconciliation and due dates.</description>
+    </item>
+  </channel>
+</rss>

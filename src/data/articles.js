@@ -6,6 +6,7 @@ export const articles = [
     category: 'Payroll & Super',
     readTime: '7 min read',
     date: 'Nov 20, 2026',
+    datePublished: '2026-11-20',
     image: 'https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=800&q=70&fm=webp',
     intro: 'Payday Super is one of the most important payroll changes for Australian employers. From 1 July 2026, super guarantee contributions must generally be paid and received by the employee’s fund at the same time as qualifying earnings.',
     sections: [
@@ -22,6 +23,7 @@ export const articles = [
     category: 'Tax & Compliance',
     readTime: '9 min read',
     date: 'Nov 17, 2026',
+    datePublished: '2026-11-17',
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=70&fm=webp',
     intro: 'The 2026–27 Budget introduced policy areas that may affect businesses and individuals. Confirmed legislation and ATO implementation guidance should be used before making a tax decision.',
     sections: [
@@ -38,6 +40,7 @@ export const articles = [
     category: 'BAS & GST',
     readTime: '8 min read',
     date: 'Nov 12, 2026',
+    datePublished: '2026-11-12',
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=70&fm=webp',
     intro: 'A complete BAS review begins before lodgement season. Clean records, reconciled GST accounts and a clear reporting calendar reduce errors and avoid late-payment interest.',
     sections: [
@@ -54,6 +57,7 @@ export const articles = [
     category: 'SMSF',
     readTime: '10 min read',
     date: 'Nov 8, 2026',
+    datePublished: '2026-11-08',
     image: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&q=70&fm=webp',
     intro: 'A well-prepared SMSF file makes annual accounting and audit work more efficient. Trustees should reconcile investment holdings and review fund documents throughout the year.',
     sections: [
@@ -70,6 +74,7 @@ export const articles = [
     category: 'Accounting Software',
     readTime: '11 min read',
     date: 'Nov 3, 2026',
+    datePublished: '2026-11-03',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=70&fm=webp',
     intro: 'The best accounting platform depends on workflow, reporting, payroll, integrations and internal capability. Pricing alone should not determine the decision.',
     sections: [
@@ -86,6 +91,7 @@ export const articles = [
     category: 'Business Planning',
     readTime: '6 min read',
     date: 'Oct 29, 2026',
+    datePublished: '2026-10-29',
     image: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&q=70&fm=webp',
     intro: 'A proactive compliance calendar reduces missed deadlines and helps owners make tax decisions before 30 June.',
     sections: [

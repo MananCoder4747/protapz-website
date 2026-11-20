@@ -138,7 +138,7 @@ export default function About() {
                 <div className="text-center max-w-4xl mx-auto">
                   <div className="inline-block mb-6 animate-slide-up">
                     <span className="bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 px-5 py-2 rounded-full text-sm font-medium">
-                      Est. 2010 • Sydney, Australia
+                      Est. 2010 • Surat, India
                     </span>
                   </div>
                   

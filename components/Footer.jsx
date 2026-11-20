@@ -49,7 +49,7 @@ export default function Footer() {
             <ul className="space-y-3 text-slate-400">
               <li className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 mt-0.5 text-emerald-400" />
-                <span>Level 12, 123 Pitt Street<br />Sydney NSW 2000</span>
+                <span>Crystal Chambers, B-203<br />Varachha, Surat, Gujarat 395006</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-emerald-400" />

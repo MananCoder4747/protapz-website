@@ -32,31 +32,13 @@ export default function Contact() {
 
   const offices = [
     {
-      city: "Sydney",
-      address: "Level 12, 123 Pitt Street",
-      suburb: "Sydney NSW 2000",
+      city: "Surat",
+      address: "Crystal Chambers, B-203",
+      suburb: "Varachha, Surat, Gujarat 395006",
       phone: "(+91) 88667 76724",
       email: "zaran@protapz.co.in",
       hours: "Mon-Fri: 8:30 AM - 5:30 PM",
       isPrimary: true
-    },
-    {
-      city: "Melbourne",
-      address: "Suite 45, 678 Collins Street",
-      suburb: "Melbourne VIC 3000",
-      phone: "(+91) 88667 76724",
-      email: "zaran@protapz.co.in",
-      hours: "Mon-Fri: 8:30 AM - 5:30 PM",
-      isPrimary: false
-    },
-    {
-      city: "Brisbane",
-      address: "Level 8, 234 Queen Street",
-      suburb: "Brisbane QLD 4000",
-      phone: "(+91) 88667 76724",
-      email: "zaran@protapz.co.in",
-      hours: "Mon-Fri: 8:30 AM - 5:30 PM",
-      isPrimary: false
     }
   ];
 
@@ -102,7 +84,7 @@ export default function Contact() {
     },
     {
       question: "Do you work with businesses outside of Sydney?",
-      answer: "Absolutely! We serve clients across Australia. With offices in Sydney, Melbourne, and Brisbane, plus cloud-based systems, we provide seamless service regardless of your location."
+      answer: "Absolutely! We serve clients across Australia through secure cloud-based systems and remote consultations."
     },
     {
       question: "What are your fees?",
@@ -330,7 +312,7 @@ export default function Contact() {
                   Our <span className="gradient-text">Offices</span>
                 </h2>
                 <p className="text-slate-400 mb-8">
-                  Visit us at one of our locations across Australia.
+                  Our Surat office is available by appointment. We also serve Australian clients remotely.
                 </p>
 
                 <div className="space-y-6 mb-8">

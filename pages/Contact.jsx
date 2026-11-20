@@ -461,7 +461,7 @@ export default function Contact() {
         </section>
 
         {/* Map Section (Placeholder) */}
-        <section className="py-24 px-6">
+        {/* <section className="py-24 px-6">
           <div className="max-w-7xl mx-auto">
             <div className="bg-slate-900/50 backdrop-blur border border-slate-800 rounded-2xl overflow-hidden h-96 flex items-center justify-center">
               <div className="text-center">
@@ -471,7 +471,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-        </section>
+        </section>  */}
       </div>
     </div>
     </main>

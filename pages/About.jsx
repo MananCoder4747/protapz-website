@@ -12,16 +12,16 @@ export default function About() {
       name: "Zaran Khunt",
       role: "Founder & Managing Director",
       specialty: "Tax Strategy & Business Advisory",
-      image: "👨‍💼",
+      image: "👩",
       bio: "With 7+ years in public practice, Zaran founded Protapz to provide personalized, strategic accounting services to Australian businesses.",
       credentials: "CPA",
       linkedin: "#"
     },
     {
-      name: "Sarah Williams",
+      name: "John Williams",
       role: "Tax Partner",
       specialty: "Corporate Tax & Compliance",
-      image: "👩‍💼",
+      image: "👨‍💼",
       bio: "Sarah leads our tax division with expertise in complex corporate structures and R&D tax incentives for tech companies.",
       credentials: "CPA, MTax",
       linkedin: "#"

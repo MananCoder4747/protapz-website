@@ -28,6 +28,10 @@
     <priority>0.8</priority>
   </url>
   <url><loc>https://www.protapz.co.in/insights</loc><lastmod>2026-11-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.protapz.co.in/careers</loc><lastmod>2026-11-20</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.protapz.co.in/privacy-policy</loc><lastmod>2026-11-20</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.protapz.co.in/terms-of-service</loc><lastmod>2026-11-20</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.protapz.co.in/cookie-policy</loc><lastmod>2026-11-20</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://www.protapz.co.in/services/australian-tax-returns</loc><lastmod>2026-11-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.protapz.co.in/services/bas-gst</loc><lastmod>2026-11-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.protapz.co.in/services/bookkeeping</loc><lastmod>2026-11-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>

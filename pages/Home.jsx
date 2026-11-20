@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   DollarSign, TrendingUp, Shield, Users, ChevronRight, Star, ArrowRight, 
-  CheckCircle, Calendar, Award, Target, Zap, BarChart, Lock, Globe,
+  CheckCircle, Award, Target, Zap, BarChart, Lock, Globe,
   FileText, Calculator, PieChart, Building2, Briefcase, BookOpen,
-  MessageSquare, Phone, Mail, Clock, Play, Download, ExternalLink
+  MessageSquare, Phone, Mail, Clock, Play, MessageCircle, ExternalLink
 } from 'lucide-react';
 import { Helmet } from 'react-helmet-async'
 
@@ -787,13 +787,9 @@ export default function Home() {
               <Mail className="w-5 h-5" />
               <span>admin@protapz.co.in</span>
             </a>
-            <a href="#" className="flex items-center gap-2 hover:text-emerald-400 transition-colors">
-              <Download className="w-5 h-5" />
-              <span>Download Brochure</span>
-            </a>
-            <a href="#" className="flex items-center gap-2 hover:text-emerald-400 transition-colors">
-              <Calendar className="w-5 h-5" />
-              <span>Schedule Meeting</span>
+            <a href="https://wa.me/918866776724?text=Hello%20Protapz%2C%20I%20would%20like%20to%20discuss%20your%20accounting%20services." target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-emerald-400 transition-colors">
+              <MessageCircle className="w-5 h-5" />
+              <span>Chat on WhatsApp</span>
             </a>
           </div>
         </div>

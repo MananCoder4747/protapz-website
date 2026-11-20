@@ -13,6 +13,8 @@ const ServiceDetail = lazy(() => import('./pages/ServiceDetail'))
 const IndustryDetail = lazy(() => import('./pages/IndustryDetail'))
 const Insights = lazy(() => import('./pages/Insights'))
 const ArticleDetail = lazy(() => import('./pages/ArticleDetail'))
+const Careers = lazy(() => import('./pages/Careers'))
+const Legal = lazy(() => import('./pages/Legal'))
 
 // Loading component
 const PageLoader = () => (
@@ -36,6 +38,11 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/insights" element={<Insights />} />
             <Route path="/insights/:slug" element={<ArticleDetail />} />
+            <Route path="/blog" element={<Navigate to="/insights" replace />} />
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/privacy-policy" element={<Legal page="privacy-policy" />} />
+            <Route path="/terms-of-service" element={<Legal page="terms-of-service" />} />
+            <Route path="/cookie-policy" element={<Legal page="cookie-policy" />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>

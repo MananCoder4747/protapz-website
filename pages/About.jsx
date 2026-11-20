@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { 
   Award, Users, Target, Heart, TrendingUp, Shield, 
-  Globe, Clock, CheckCircle, Star, ArrowRight, Linkedin 
+  Globe, Clock, CheckCircle, Star, ArrowRight
 } from 'lucide-react';
 
 export default function About() {
@@ -14,8 +14,7 @@ export default function About() {
       specialty: "Tax Strategy & Business Advisory",
       image: "👩",
       bio: "With 7+ years in public practice, Zaran founded Protapz to provide personalized, strategic accounting services to Australian businesses.",
-      credentials: "CPA",
-      linkedin: "#"
+      credentials: "CPA"
     },
     {
       name: "John Williams",
@@ -23,8 +22,7 @@ export default function About() {
       specialty: "Corporate Tax & Compliance",
       image: "👨‍💼",
       bio: "Sarah leads our tax division with expertise in complex corporate structures and R&D tax incentives for tech companies.",
-      credentials: "CPA, MTax",
-      linkedin: "#"
+      credentials: "CPA, MTax"
     },
     {
       name: "David Kumar",
@@ -32,8 +30,7 @@ export default function About() {
       specialty: "CFO Services & Growth Strategy",
       image: "👨‍💻",
       bio: "Former CFO of three tech unicorns, David brings startup and scale-up expertise to our advisory practice.",
-      credentials: "CA, CFA",
-      linkedin: "#"
+      credentials: "CA, CFA"
     },
     {
       name: "Emma Thompson",
@@ -41,8 +38,7 @@ export default function About() {
       specialty: "Superannuation & Wealth",
       image: "👩‍⚕️",
       bio: "Emma specializes in self-managed super funds and retirement planning with over 15 years of dedicated SMSF experience.",
-      credentials: "CPA, SMSF Specialist",
-      linkedin: "#"
+      credentials: "CPA, SMSF Specialist"
     },
     {
       name: "James Rodriguez",
@@ -50,8 +46,7 @@ export default function About() {
       specialty: "Cloud Accounting & Automation",
       image: "👨‍🔬",
       bio: "James drives our tech stack, implementing cutting-edge cloud solutions to streamline client operations.",
-      credentials: "BIT, Xero Certified",
-      linkedin: "#"
+      credentials: "BIT, Xero Certified"
     },
     {
       name: "Lisa Park",
@@ -59,8 +54,7 @@ export default function About() {
       specialty: "Day-to-Day Operations",
       image: "👩‍🏫",
       bio: "Lisa manages our bookkeeping division, ensuring accurate and timely financial records for over 200 clients.",
-      credentials: "BAS Agent, ICB Certified",
-      linkedin: "#"
+      credentials: "BAS Agent, ICB Certified"
     }
   ];
 
@@ -295,13 +289,6 @@ export default function About() {
                           {member.bio}
                         </p>
 
-                        <a 
-                          href={member.linkedin}
-                          className="flex items-center justify-center gap-2 text-emerald-400 hover:text-emerald-300 transition-colors"
-                        >
-                          <Linkedin className="w-5 h-5" />
-                          <span className="text-sm font-medium">Connect on LinkedIn</span>
-                        </a>
                       </div>
                     </div>
                   ))}

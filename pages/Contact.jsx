@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { 
   Mail, Phone, MapPin, Clock, Send, CheckCircle, 
-  Calendar, MessageSquare, ArrowRight, ChevronDown, 
-  ChevronUp, Linkedin, Twitter, Facebook 
+  MessageSquare, ArrowRight, ChevronDown, ChevronUp
 } from 'lucide-react';
 
 export default function Contact() {
@@ -79,19 +78,11 @@ export default function Contact() {
       color: "from-emerald-500 to-teal-600"
     },
     {
-      icon: <Calendar className="w-8 h-8" />,
-      title: "Book a Meeting",
-      description: "Schedule a free consultation",
-      action: "View Calendar",
-      link: "#",
-      color: "from-purple-500 to-pink-600"
-    },
-    {
       icon: <MessageSquare className="w-8 h-8" />,
-      title: "Live Chat",
-      description: "Chat with our team now",
-      action: "Start Chat",
-      link: "#",
+      title: "WhatsApp",
+      description: "Chat with our team directly",
+      action: "Start WhatsApp Chat",
+      link: "https://wa.me/918866776724?text=Hello%20Protapz%2C%20I%20would%20like%20to%20discuss%20my%20accounting%20requirements.",
       color: "from-orange-500 to-red-600"
     }
   ];
@@ -194,7 +185,7 @@ export default function Contact() {
         {/* Contact Methods */}
         <section className="py-16 px-6 bg-slate-900/30 border-y border-slate-800">
           <div className="max-w-7xl mx-auto">
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-3 gap-6">
               {contactMethods.map((method, index) => (
                 <a
                   key={index}
@@ -387,21 +378,6 @@ export default function Contact() {
                   ))}
                 </div>
 
-                {/* Social Media */}
-                <div className="bg-slate-900/50 backdrop-blur border border-slate-800 rounded-xl p-6">
-                  <h3 className="text-lg font-bold mb-4">Connect With Us</h3>
-                  <div className="flex gap-4">
-                    <a href="#" className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors">
-                      <Linkedin className="w-6 h-6" />
-                    </a>
-                    <a href="#" className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors">
-                      <Twitter className="w-6 h-6" />
-                    </a>
-                    <a href="#" className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors">
-                      <Facebook className="w-6 h-6" />
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

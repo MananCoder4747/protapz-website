@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react';
+import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -14,17 +14,9 @@ export default function Footer() {
               Your trusted partner in financial excellence. Delivering expert accounting, 
               tax, and advisory services to Australian businesses since 2010.
             </p>
-            <div className="flex gap-4">
-              <a href="https://linkedin.com/protapz" className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors" aria-label="LinkedIn">
-                <Linkedin className="w-5 h-5" aria-hidden="true" />
-              </a>
-              <a href="https://twitter.com/protapz" className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors" aria-label="Twitter">
-                <Twitter className="w-5 h-5" aria-hidden="true" />
-              </a>
-              <a href="https://facebook.com/protapz" className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-emerald-500 transition-colors" aria-label="Facebook">
-                <Facebook className="w-5 h-5" aria-hidden="true" />
-              </a>
-            </div>
+            <a href="https://wa.me/918866776724" target="_blank" rel="noreferrer" className="w-12 h-12 bg-emerald-500 rounded-lg flex items-center justify-center hover:bg-emerald-400 transition-colors" aria-label="Chat with Protapz on WhatsApp">
+              <MessageCircle className="w-5 h-5" aria-hidden="true" />
+            </a>
           </div>
 
           {/* Services Column */}
@@ -45,8 +37,8 @@ export default function Footer() {
             <ul className="space-y-3 text-slate-400">
               <li><Link to="/about" className="hover:text-emerald-400 transition-colors">About Us</Link></li>
               <li><Link to="/about" className="hover:text-emerald-400 transition-colors">Our Team</Link></li>
-              <li><Link to="#" className="hover:text-emerald-400 transition-colors">Careers</Link></li>
-              <li><Link to="#" className="hover:text-emerald-400 transition-colors">Blog</Link></li>
+              <li><Link to="/careers" className="hover:text-emerald-400 transition-colors">Careers</Link></li>
+              <li><Link to="/insights" className="hover:text-emerald-400 transition-colors">Blog</Link></li>
               <li><Link to="/contact" className="hover:text-emerald-400 transition-colors">Contact</Link></li>
             </ul>
           </div>
@@ -79,9 +71,9 @@ export default function Footer() {
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-sm">
           <p>&copy; 2026 Protapz Accounting. All rights reserved.</p>
           <div className="flex gap-6">
-            <Link to="#" className="hover:text-emerald-400 transition-colors">Privacy Policy</Link>
-            <Link to="#" className="hover:text-emerald-400 transition-colors">Terms of Service</Link>
-            <Link to="#" className="hover:text-emerald-400 transition-colors">Cookie Policy</Link>
+            <Link to="/privacy-policy" className="hover:text-emerald-400 transition-colors">Privacy Policy</Link>
+            <Link to="/terms-of-service" className="hover:text-emerald-400 transition-colors">Terms of Service</Link>
+            <Link to="/cookie-policy" className="hover:text-emerald-400 transition-colors">Cookie Policy</Link>
           </div>
         </div>
       </div>

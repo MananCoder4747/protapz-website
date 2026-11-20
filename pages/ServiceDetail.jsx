@@ -16,6 +16,27 @@ export default function ServiceDetail() {
         <title>{service.title} - Protapz Australian Accounting</title>
         <meta name="description" content={service.summary} />
         <link rel="canonical" href={`https://www.protapz.co.in/services/${slug}`} />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": service.title,
+          "description": service.summary,
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.protapz.co.in/#organization"
+          },
+          "areaServed": {"@type": "Country", "name": "Australia"},
+          "url": `https://www.protapz.co.in/services/${slug}`
+        })}</script>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://www.protapz.co.in/"},
+            {"@type":"ListItem","position":2,"name":"Services","item":"https://www.protapz.co.in/services"},
+            {"@type":"ListItem","position":3,"name":service.title,"item":`https://www.protapz.co.in/services/${slug}`}
+          ]
+        })}</script>
       </Helmet>
       <section className="pt-32 pb-20 px-6 overflow-hidden">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">

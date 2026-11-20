@@ -32,6 +32,11 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.protapz.co.in" />
   <meta property="og:locale" content="en_AU" />
+  <meta property="og:image" content="https://www.protapz.co.in/logo.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Protapz - Australian Accounting Services" />
+  <meta name="twitter:description" content="Expert Australian tax, BAS/GST, bookkeeping, payroll and SMSF services." />
+  <meta name="twitter:image" content="https://www.protapz.co.in/logo.svg" />
   
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon-theme.svg" />
@@ -185,6 +190,10 @@
     <a href="https://www.protapz.co.in/services">Services</a>
     <a href="https://www.protapz.co.in/about">About</a>
     <a href="https://www.protapz.co.in/contact">Contact</a>
+    <a href="https://www.protapz.co.in/insights">Insights</a>
+    <a href="https://www.protapz.co.in/services/smsf">SMSF Accounting</a>
+    <a href="https://www.protapz.co.in/services/australian-tax-returns">Australian Tax Returns</a>
+    <a href="https://www.protapz.co.in/services/bas-gst">BAS and GST Services</a>
   </nav>
 </div>
   <!-- Main App Script -->
@@ -193,28 +202,64 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Protapz",
-    "legalName": "Protapz Accounting Services",
-    "url": "https://www.protapz.co.in",
-    "logo": "https://www.protapz.co.in/og-image.png",
-    "description": "Australian accounting services including tax returns, BAS/GST, bookkeeping, payroll, and SMSF",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Ahmedabad",
-      "addressRegion": "Gujarat",
-      "addressCountry": "IN"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+91-88667-76724",
-      "contactType": "customer service",
-      "email": "info@protapz.co.in"
-    },
-    "areaServed": {
-      "@type": "Country",
-      "name": "Australia"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.protapz.co.in/#organization",
+        "name": "Protapz",
+        "legalName": "Protapz Accounting Services",
+        "url": "https://www.protapz.co.in",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.protapz.co.in/logo.svg"
+        },
+        "description": "Australian accounting services including tax returns, BAS/GST, bookkeeping, payroll and SMSF.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-88667-76724",
+          "contactType": "customer service",
+          "email": "zaran@protapz.co.in",
+          "areaServed": "AU"
+        }
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://www.protapz.co.in/#professionalservice",
+        "name": "Protapz Australian Accounting",
+        "url": "https://www.protapz.co.in",
+        "image": "https://www.protapz.co.in/logo.svg",
+        "telephone": "+91-88667-76724",
+        "email": "zaran@protapz.co.in",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Australia"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Australian Accounting Services",
+          "itemListElement": [
+            {"@type":"Offer","itemOffered":{"@type":"Service","name":"Australian Tax Returns"}},
+            {"@type":"Offer","itemOffered":{"@type":"Service","name":"BAS and GST Services"}},
+            {"@type":"Offer","itemOffered":{"@type":"Service","name":"SMSF Accounting"}},
+            {"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping and Payroll"}}
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.protapz.co.in/#website",
+        "url": "https://www.protapz.co.in",
+        "name": "Protapz",
+        "publisher": {"@id": "https://www.protapz.co.in/#organization"},
+        "inLanguage": "en-AU"
+      }
+    ]
   }
   </script>
   

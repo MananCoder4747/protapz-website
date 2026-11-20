@@ -15,6 +15,15 @@ export default function IndustryDetail() {
         <title>{industry.title} Accounting - Protapz Australia</title>
         <meta name="description" content={industry.summary} />
         <link rel="canonical" href={`https://www.protapz.co.in/industries/${slug}`} />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://www.protapz.co.in/"},
+            {"@type":"ListItem","position":2,"name":"Industries","item":"https://www.protapz.co.in/"},
+            {"@type":"ListItem","position":3,"name":industry.title,"item":`https://www.protapz.co.in/industries/${slug}`}
+          ]
+        })}</script>
       </Helmet>
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">

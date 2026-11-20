@@ -15,6 +15,18 @@ export default function ArticleDetail() {
         <title>{article.title} - Protapz Insights</title>
         <meta name="description" content={article.excerpt} />
         <link rel="canonical" href={`https://www.protapz.co.in/insights/${slug}`} />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": article.title,
+          "description": article.excerpt,
+          "datePublished": "2026-11-20",
+          "dateModified": "2026-11-20",
+          "author": {"@type":"Organization","name":"Protapz"},
+          "publisher": {"@id":"https://www.protapz.co.in/#organization"},
+          "image": article.image,
+          "mainEntityOfPage": `https://www.protapz.co.in/insights/${slug}`
+        })}</script>
       </Helmet>
       <article className="pt-32 pb-24 px-6">
         <div className="max-w-4xl mx-auto">

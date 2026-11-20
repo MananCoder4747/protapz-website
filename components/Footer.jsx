@@ -23,11 +23,11 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4 text-lg">Services</h3>
             <ul className="space-y-3 text-slate-400">
-              <li><Link to="/services" className="hover:text-emerald-400 transition-colors">Tax Planning</Link></li>
-              <li><Link to="/services" className="hover:text-emerald-400 transition-colors">Business Advisory</Link></li>
-              <li><Link to="/services" className="hover:text-emerald-400 transition-colors">Bookkeeping</Link></li>
-              <li><Link to="/services" className="hover:text-emerald-400 transition-colors">Payroll Services</Link></li>
-              <li><Link to="/services" className="hover:text-emerald-400 transition-colors">SMSF Management</Link></li>
+              <li><Link to="/services/australian-tax-returns" className="hover:text-emerald-400 transition-colors">Tax Returns</Link></li>
+              <li><Link to="/services/business-advisory" className="hover:text-emerald-400 transition-colors">Business Advisory</Link></li>
+              <li><Link to="/services/bookkeeping" className="hover:text-emerald-400 transition-colors">Bookkeeping</Link></li>
+              <li><Link to="/services/payroll-super" className="hover:text-emerald-400 transition-colors">Payroll Services</Link></li>
+              <li><Link to="/services/smsf" className="hover:text-emerald-400 transition-colors">SMSF Management</Link></li>
             </ul>
           </div>
 
